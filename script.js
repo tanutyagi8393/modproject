@@ -16,7 +16,7 @@ fetch("https://api.ipify.org/?format=json")
   .then((data) => {
     ipad.innerText = data.ip;
     // token apna use karo
-    url = `https://ipinfo.io/${data.ip}?token=${"token"}`;
+    url = `https://ipinfo.io/${data.ip}?token=b19b38775a5785`;
   })
   .catch((err) => {
     console.log(err);
